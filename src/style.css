@@ -8,6 +8,7 @@
 
 body {
   padding: 3rem;
+  background-color: bisque;
 }
 
 .scores {
@@ -16,7 +17,7 @@ body {
 }
 
 .add-scores {
-  width: 40%;
+  width: 30%;
   margin: 1rem 2rem;
 }
 
@@ -74,5 +75,9 @@ button {
 }
 
 #status {
-  color: aqua;
+  color: black;
+}
+
+.grey {
+  background-color: grey;
 }

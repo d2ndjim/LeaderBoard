@@ -10,10 +10,9 @@ const message = document.querySelector('#status');
 
 refreshBtn.addEventListener('click', async () => {
   const scores = await leaderboard.getScores();
-  const res = scores.result;
   nameScoreContainer.innerHTML = '';
-  for (let i = 0; i < res.length; i += 1) {
-    nameScoreContainer.innerHTML += `<li>${res[i].user}: ${res[i].score}</li>`;
+  for (let i = 0; i < scores.length; i += 1) {
+    nameScoreContainer.innerHTML += `<li>${scores[i].user}: ${scores[i].score}</li>`;
   }
 });
 
