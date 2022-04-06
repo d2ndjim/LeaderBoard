@@ -1,4 +1,4 @@
-let gameID = 'Ok2CZYJUHTw22wOK4Qdr';
+const gameID = 'Ok2CZYJUHTw22wOK4Qdr';
 const createScore = (userName, userScore) => fetch(
   `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`,
   {
