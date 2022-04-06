@@ -1,3 +1,73 @@
-.hello {
-  color: red;
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 3rem;
+}
+
+.scores {
+  width: 40%;
+  margin: 1rem 2rem;
+}
+
+.add-scores {
+  width: 40%;
+  margin: 1rem 2rem;
+}
+
+form {
+  flex-direction: column;
+  padding-top: 1.1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+ul {
+  list-style: none;
+  border: 1px solid black;
+  padding: 0;
+}
+
+li {
+  padding: 8px 5px;
+}
+
+li:nth-child(even) {
+  background-color: rgb(236, 235, 231);
+}
+
+h2 {
+  margin: 5px;
+}
+
+input {
+  margin: 0 0 1rem 0;
+  padding: 7px;
+}
+
+button {
+  border: 1px solid black;
+  background-color: #fff;
+  width: 5rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
