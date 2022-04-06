@@ -1,5 +1,4 @@
-let gameID = ''
-
+let gameID = null;
 const createGame = () =>
   fetch(
     "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/",
@@ -11,7 +10,7 @@ const createGame = () =>
       body: 
           JSON.stringify({
             name: "LONEWOLF"
-      })
+      }),
     }
 ).then(res => res.json()).then(res => {
   [... gameID] = res.result.split(' ');
@@ -34,7 +33,7 @@ const createScore = (userName, userScore) =>
 
 const getScores = () =>
   fetch(
-    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`
-  ).then(res => res.json())
+    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`
+  ).then((res) => res.json());
 
-export {createGame, createScore, getScores}
+export default {createGame, createScore, getScores}
