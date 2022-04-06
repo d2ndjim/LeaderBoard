@@ -17,4 +17,4 @@ const getScores = () => fetch(
   `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`,
 ).then((res) => res.json());
 
-export default {createScore, getScores };
+export default { createScore, getScores };
