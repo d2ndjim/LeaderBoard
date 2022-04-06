@@ -72,3 +72,7 @@ button {
 .align-center {
   align-items: center;
 }
+
+#status {
+  color: aqua;
+}
