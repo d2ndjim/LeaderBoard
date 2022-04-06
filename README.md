@@ -1,16 +1,13 @@
-# To-Do List | MODULE-II
+# LEADERBOARD PROJECT
 
-> This is a project being built in the second module of curriculum at microverse. it's an application that helps to keep track of the completion and updating of a todo list
+> This is a project being built in the second module of curriculum at microverse. it's an application that uses the Leaderboard API to update name and scores of users
 
-The goal here is to Build an application with add and remove feature from scratch using JavaScripts. click [here](https://d2ndjim.github.io/ToDo-List/) to see deployed live version
+Click [here]() to see deployed live version
 
 ### Features implemented so far are:
 
 - Responsive HTML page
-- Add task feature
-- Remove task feature
-- Refresh tasks
-- Clear completed tasks
+
 
 ## Built With
 
@@ -35,7 +32,7 @@ The basic requirements for building the executable are:
 #### Cloning the project
 
 ```
-git clone  <https://github.com/d2ndjim/ToDo-List.git>
+git clone  <https://github.com/d2ndjim/LeaderBoard.git>
 ```
 
 ## Getting started with Webpack
@@ -92,13 +89,6 @@ npm run build
 ```
 npm start
 ```
-##### To run tests and see test file, Run
-
-```
-npm run test
-```
-
-
 ##### from parent source directory
 
 ## License
@@ -107,10 +97,8 @@ All source code files are licensed under the permissive zlib license
 (http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
 
 ## Author
-👤 **Lekan Jimoh** -[github](https://github.com/d2ndjim), [twitter](https://twitter.com/d2ndjim_), [Linkedin](https://linkedin.com/in/lekanj)
+👤 **Lekan Jimoh**
 
-👤 **Monika**
-
-- GitHub: [GitHub](https://github.com/monika-soam)
-- Twitter: @monikasoam
-- LinkedIn: [LinkedIn](linkedin.com/in/monika-soam-✓-16b59925)
+- GitHub: [d2ndjim]https://github.com/d2ndjim)
+- Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
+- LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
