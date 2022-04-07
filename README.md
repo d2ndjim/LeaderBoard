@@ -2,7 +2,7 @@
 
 > This is a project being built in the second module of curriculum at microverse. it's an application that uses the Leaderboard API to update name and scores of users
 
-Click [here]() to see deployed live version
+### Click [here](https://d2ndjim.github.io/LeaderBoard/) to see deployed live version
 
 ### Features implemented so far are:
 
