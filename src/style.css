@@ -12,13 +12,13 @@ body {
 }
 
 .scores {
-  width: 40%;
-  margin: 1rem 2rem;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .add-scores {
-  width: 30%;
-  margin: 1rem 2rem;
+  width: 90%;
+  margin-top: 15px;
 }
 
 form {
@@ -27,6 +27,7 @@ form {
 }
 
 h1 {
+  text-align: center;
   font-size: 3rem;
   margin-left: 2rem;
 }
@@ -66,6 +67,11 @@ button {
   display: flex;
 }
 
+.just-center {
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -76,8 +82,30 @@ button {
 
 #status {
   color: black;
+  margin-top: 5px;
 }
 
 .grey {
   background-color: grey;
+}
+
+.col {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#add-score {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .scores {
+    width: 40%;
+    margin: 1rem 2rem;
+  }
+
+  .add-scores {
+    width: 40%;
+    margin: 1rem 2rem;
+  }
 }
