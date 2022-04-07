@@ -99,6 +99,6 @@ All source code files are licensed under the permissive zlib license
 ## Author
 👤 **Lekan Jimoh**
 
-- GitHub: [d2ndjim]https://github.com/d2ndjim)
+- GitHub: [d2ndjim](https://github.com/d2ndjim)
 - Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
 - LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
